@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebdd00b4-1e0b-47eb-8079-08b6e1bd4a87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ComoUsar.html" afterDir="false" />
+    <list default="true" id="a323ff38-3750-4d6d-8bb2-cf26a9db6394" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Imagenes/Banderin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/CuadriculadoBlancoYNegro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/FondoCarrera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/fondo-bandera-cuadros-carreras.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagenes/fondo-industrial-metalico.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,47 +15,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28DG5l1SJd8asqm4S0DZFs133K0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="28Wx8ssdhBp7O6cbXRh8E36e28T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Imagenes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\win10\Desktop\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\win10\Desktop\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ebdd00b4-1e0b-47eb-8079-08b6e1bd4a87" name="Changes" comment="" />
-      <created>1650743561846</created>
+      <changelist id="a323ff38-3750-4d6d-8bb2-cf26a9db6394" name="Changes" comment="" />
+      <created>1651345989321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650743561846</updated>
-      <workItem from="1650743564503" duration="740000" />
-      <workItem from="1650744454098" duration="17000" />
-      <workItem from="1650744487020" duration="889000" />
-      <workItem from="1650747978423" duration="2429000" />
-      <workItem from="1651061732127" duration="4645000" />
+      <updated>1651345989321</updated>
+      <workItem from="1651345991519" duration="9039000" />
     </task>
     <servers />
   </component>

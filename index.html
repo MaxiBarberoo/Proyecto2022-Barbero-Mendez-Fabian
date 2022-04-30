@@ -3,14 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>A Todo Gas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
 
     <style>
+        body{
+            background-image: url(Imagenes/fondo-bandera-cuadros-carreras.jpg);
+            background-size: cover;
+        }
         h1{
+
+            font-family: 'Tapestry', cursive;
+            font-size: 100px;
+            color: #000000;
+            text-shadow: 5px 5px 4px #ffffff;
             text-align: center;
+            margin: 3%;
         }
 
         .vehiculo1{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
+            background-size: 356px;
+            font-size: 20px;
+            color: white;
             border: 2px solid black;
+            border-radius: 20px;
             text-align: center;
             float: left;
             width: auto;
@@ -19,7 +37,12 @@
         }
 
         .vehiculo2{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.48));
+            background-size: 356px;
+            font-size: 20px;
+            color: white;
             border: 2px solid black;
+            border-radius: 20px;
             text-align: center;
             float: right;
             width: auto;
@@ -32,19 +55,35 @@
         }
 
         a{
+            font-size: 40px;
             text-decoration: none;
+            color: white;
         }
 
         .enlaces{
-            text-align: center;
-            padding: 350px;
-            margin-left: 300px;
+
+            display: inline-block;
+            margin-top: 40px;
+            margin-left: 41%;
         }
 
         .margenEnlace{
+            background-color: #333333;
             border: 1px solid black;
-            width: 200px;
             text-align: center;
+            margin:50px;
+            padding: 10px 19px;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .banderin{
+            display: inline-block;
+            margin-left: 800px;
+            margin-top: -400px;
+            max-width: 400px;
+            max-height: 200px;
         }
 
     </style>
@@ -89,6 +128,7 @@
             </select>
             </div>
 
+
             <div class="vehiculoContent">
                 HP: <input type="number" name="hp" min="0" max="1000" step="10" value="0">
             </div>
@@ -97,6 +137,10 @@
                 Peso: <input type="number" name="peso" min="800" max="2000" step="100" value="800">
             </div>
 
+        </div>
+
+        <div class="banderin">
+            <img src="Imagenes/Banderin.png">
         </div>
 
         <div class="enlaces">
@@ -108,7 +152,6 @@
             <a href="jugar.html" target="_blank">Jugar</a>
             </div>
         </div>
-
     </main>
 
 </body>
