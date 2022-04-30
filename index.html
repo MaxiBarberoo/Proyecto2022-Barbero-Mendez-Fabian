@@ -1,53 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>A Todo Gas</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        .vehiculo1{
+            border: 2px solid black;
+            text-align: center;
+            float: left;
+            width: auto;
+            padding: 15px 15px;
+            margin-left: 300px;
+        }
+
+        .vehiculo2{
+            border: 2px solid black;
+            text-align: center;
+            float: right;
+            width: auto;
+            padding: 15px 15px;
+            margin-right: 300px;
+        }
+
+        .vehiculoContent{
+            margin: 50px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .enlaces{
+            text-align: center;
+            padding: 350px;
+            margin-left: 300px;
+        }
+
+        .margenEnlace{
+            border: 1px solid black;
+            width: 200px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 
     <h1>A Todo Gas</h1>
 
     <main>
-        <article>
+        <div class="vehiculo1">
+
             <h2>Vehiculo 1</h2>
-            <section>
+            <div class="vehiculoContent">
                 Color: <select name="colores">
                     <option value="blanco">Blanco</option>
                     <option value="rojo">Rojo</option>
                     <option value="verde">Verde</option>
                     <option value="azul">Azul</option>
                 </select>
-            </section>
-            <section>
-                HP: <input type="number" name="hp" min="0" max="1000" step="10" value="0">
-            </section>
-            <section>
-                Peso: <input type="number" name="peso" min="800" max="2000" step="100" value="800">
-            </section>
-        </article>
+            </div>
 
-        <article>
+            <div class="vehiculoContent">
+                HP: <input type="number" name="hp" min="0" max="1000" step="10" value="0">
+            </div>
+
+            <div class="vehiculoContent">
+                Peso: <input type="number" name="peso" min="800" max="2000" step="100" value="800">
+            </div>
+
+        </div>
+
+        <div class="vehiculo2">
+
             <h2>Vehiculo 2</h2>
-            <section>
+
+            <div class="vehiculoContent">
                 Color: <select name="colores">
                 <option value="blanco">Blanco</option>
                 <option value="rojo">Rojo</option>
                 <option value="verde">Verde</option>
                 <option value="azul">Azul</option>
             </select>
-            </section>
-            <section>
+            </div>
+
+            <div class="vehiculoContent">
                 HP: <input type="number" name="hp" min="0" max="1000" step="10" value="0">
-            </section>
-            <section>
+            </div>
+
+            <div class="vehiculoContent">
                 Peso: <input type="number" name="peso" min="800" max="2000" step="100" value="800">
-            </section>
-        </article>
+            </div>
 
-        <button type="button">Como Usar</button>
+        </div>
 
-        <a href="jugar.html" target="_blank">Jugar</a>
+        <div class="enlaces">
+            <div class="margenEnlace">
+                <a href="ComoUsar.html" target="_blank">Como Usar</a>
+            </div>
+
+            <div class="margenEnlace">
+            <a href="jugar.html" target="_blank">Jugar</a>
+            </div>
+        </div>
+
     </main>
 
 </body>
