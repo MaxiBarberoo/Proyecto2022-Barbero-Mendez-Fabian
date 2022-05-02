@@ -2,46 +2,71 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Square+Peg&display=swap" rel="stylesheet">
     <title>Instrucciones</title>
     <style>
         body{
-            display: inline-flex;
-            text-align: center;
+            font-family: 'Fredericka the Great', cursive;
+            color: #f1f0e8;
+            background-image: url("Imagenes/FondoBandera.png");
+            background-size: cover;
+            padding: 20px;
+            margin: 70px;
+            height: 100%;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
         }
 
-        div{
-            position: center;
-            border: 2px solid #434363;
-            margin: 110px;
-            padding: 50px 80px;
+
+        .item{
+            width: 400px;
+            height: 550px;
+            border: 5px solid #804000;
+            border-radius: 20px;
+            text-align: center;
+            background-color: #434750;
         }
-        img{
-            width: 30px;
+        .volver{
+            position: absolute;
+            text-align: center;
+            top: 20px;
+            left: 20px;
+            width: 60px;
+            height: 40px;
         }
+
 
     </style>
 </head>
 <body>
+<div class="container">
 
-<div>
+    <div class="item">
 
-    <h2> Paso 1 </h2>
-    <p> ywrfubaesbfiuwefwarigri </p>
+        <h2> Paso 1 </h2>
+
+    </div>
+
+    <div class="item">
+        <h2>Paso 2</h2>
+    </div>
+    <div class="item">
+
+        <h2>Paso 3</h2>
+        <p></p>
+
+    </div>
+</div>
+<div class="volver">
+    <p><a href="index.html" target="_blank" ><img src="imagenes/FlechaVolver.png" width="70px" height="70px" ></a>
+    </p>
 
 </div>
 
-<div>
-    <h2>Paso 2</h2>
-
-    <p>iweirwefnsdmvisafep,oñw</p>
-
 </div>
-
-<div>
-    <h2>Paso 3</h2>
-
-    <p>bfweskjnwefimewsfmoewd</p>
-</div>
-
 </body>
 </html>
