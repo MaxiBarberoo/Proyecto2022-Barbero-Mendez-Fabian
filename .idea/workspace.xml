@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a323ff38-3750-4d6d-8bb2-cf26a9db6394" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Imagenes/Banderin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/CuadriculadoBlancoYNegro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/FondoCarrera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/fondo-bandera-cuadros-carreras.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagenes/fondo-industrial-metalico.jpg" afterDir="false" />
+    <list default="true" id="943f157c-04b7-4cf8-b4ce-4e9c5484ab2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComoUsar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ComoUsar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/CuadriculadoBlancoYNegro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/FondoCarrera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/fondo-industrial-metalico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jugar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Jugar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +18,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28Wx8ssdhBp7O6cbXRh8E36e28T" />
+  <component name="ProjectId" id="28cQf5rspAqQpQsooBFTZGyKXuV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,21 +45,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\win10\Desktop\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
+      <recent name="C:\Users\mbarb\Escritorio\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\win10\Desktop\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
+      <recent name="C:\Users\mbarb\Escritorio\Proyecto2022-Barbero-Mendez-Fabian\Imagenes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a323ff38-3750-4d6d-8bb2-cf26a9db6394" name="Changes" comment="" />
-      <created>1651345989321</created>
+      <changelist id="943f157c-04b7-4cf8-b4ce-4e9c5484ab2e" name="Changes" comment="" />
+      <created>1651513498872</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651345989321</updated>
-      <workItem from="1651345991519" duration="9039000" />
+      <updated>1651513498872</updated>
+      <workItem from="1651513502045" duration="10681000" />
+      <workItem from="1651577010399" duration="6505000" />
     </task>
     <servers />
   </component>

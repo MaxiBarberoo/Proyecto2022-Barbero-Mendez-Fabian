@@ -5,48 +5,99 @@
     <title>JUGAR</title>
 
     <style>
+        body, html{
+            height: 100%;
+        }
         body{
+            margin: 0;
+            padding: 0;
             background-image: url("Imagenes/FondoArena.jpeg");
         }
-    img{
-        height: 701px;
-        width: 500px;
-        margin-left: 500px;
-    }
-    .contenedor{
-        border: 2px solid black;
-    }
+        #Pista{
+            height: 701px;
+            width: 500px;
+            margin-left: 500px;
+        }
 
-    button{
-        border-radius: 5px;
-        font-size: 30px;
-        color: rgb(245,245,245);
-        background-color: rgba(0,0,0,0.5);
-        margin-left: 680px;
-        margin-top: 300px;
-    }
+        #vehiculo1{
+            width: 100px;
+            height: 200px;
+        }
+        #vehiculo2{
+            width: 100px;
+            height: 200px;
+        }
 
-    .botonConteiner{
-        display: inline-block;
-        position: absolute;
-    }
+        .Vehiculo1{
+            position: absolute;
+            bottom:0px;
+            left: 567px;
+        }
+
+        .Vehiculo2{
+            position: absolute;
+            bottom:0px;
+            left: 817px;
+        }
+
+        .contenedor{
+            position: relative;
+        }
+
+        button{
+            border-radius: 5px;
+            font-size: 30px;
+            color: rgb(245,245,245);
+            background-color: rgba(0,0,0,0.5);
+            margin: auto;
+        }
+
+
+        .botonConteiner {
+            position: absolute;
+            top: 40%;
+            left: 46%;
+            margin: -25px 0 0 -25px;
+        }
+
+        #volver{
+            height: 70px;
+            width: 70px;
+        }
+
+        .volver{
+            position: absolute;
+            left: 5px;
+        }
     </style>
 </head>
+
 <body>
+
 <div class="contenedor">
-    <div class="botonConteiner">
-    <button><b>INICIAR</b></button>
+
+    <div class="volver">
+        <a href="index.html" target="_self" ><img id="volver" src="imagenes/FlechaVolver.png"></a>
     </div>
-    <img src="Imagenes/FondoPista.jpeg">
+
+
+    <div class="botonConteiner">
+        <button><b>INICIAR</b></button>
+    </div>
+
+
+    <img id="Pista" src="Imagenes/FondoPista.jpeg">
 
 <div class="Vehiculo1">
-
+    <img id="vehiculo1" src="Imagenes/AutoAzul.png">
 </div>
 
 <div class="Vehiculo2">
+    <img id="vehiculo2" src="Imagenes/AutoRojo.png">
+</div>
 
 </div>
-</div>
+
 
 
 </body>
